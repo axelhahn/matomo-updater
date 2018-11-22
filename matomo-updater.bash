@@ -66,7 +66,7 @@
     echo OK.
     echo
  
-    echo --- sync new files form [${xDir2}] to current install dir [${appDir}]
+    echo --- sync new files from [${xDir2}] to current install dir [${appDir}]
     rsync -r ${xDir2}/* ${appDir} || exit 7
     echo OK.
     echo
